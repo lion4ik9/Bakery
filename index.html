@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -117,7 +123,7 @@
                 <ul class="ul_qualityOurBakery">
                     <li class="li_ul_qalityOurBakery">
                         <figure class="fig_qualityOurBakary">
-                            <img class="img_qualityOurBakery" src="pictures/bread-removebg-preview.png">
+                            <img id="bread" class="img_qualityOurBakery" src="pictures/bread-removebg-preview.png">
                             <figcaption class="fig-cap_qualityOurBakary">
                                 <ol class="ol_qualityOurBakery">
                                     <li class="li_ol_qualityOurBakery">Flour with fresh wheat</li>
@@ -130,20 +136,20 @@
                     </li>
                     <li class="li_ul_qalityOurBakery">
                         <figure class="fig_qualityOurBakary">
-                            <img class="img_qualityOurBakery" src="pictures/cookies-removebg-preview.png">
+                            <img id="cookies" class="img_qualityOurBakery" src="pictures/cookies-removebg-preview.png">
                             <figcaption class="fig-cap_qualityOurBakary">
                                 <ol class="ol_qualityOurBakery">
                                     <li class="li_ol_qualityOurBakery">Flour with fresh wheat</li>
                                     <li class="li_ol_qualityOurBakery">New drozzhi</li>
                                     <li class="li_ol_qualityOurBakery">Fresh eggs</li>
                                     <li class="li_ol_qualityOurBakery">Water from the well</li>
-                            </ol>
-                        </figcaption>
+                                </ol>
+                            </figcaption>
                         </figure>
                     </li>
                     <li class="li_ul_qalityOurBakery">
                         <figure class="fig_qualityOurBakary">
-                            <img class="img_qualityOurBakery" src="pictures/pie-removebg-preview.png">
+                            <img id="pie" class="img_qualityOurBakery" src="pictures/pie-removebg-preview.png">
                             <figcaption class="fig-cap_qualityOurBakary">
                                 <ol class="ol_qualityOurBakery">
                                     <li class="li_ol_qualityOurBakery">Flour with fresh wheat</li>
@@ -178,59 +184,72 @@
         </section>
         <section id="five">
             <div class="container">
-                <div class="title">Where</div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.0031435472395!2d30.151793109617003!3d49.785946698112724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d369fa2e358d15%3A0x93ac816230eb5004!2z0JrRg9C70LjQvdC40YfQuA!5e0!3m2!1sru!2sua!4v1709588973415!5m2!1sru!2sua"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <h5>How</h5>
-                <h5>When</h5>
-                <p><a href='tel:+38 055 123 13 12'>+38 055 123 13 12</a></p>
-                <p>with 8:30 to 20:30</p>
-                <ul>
-                    <p>Tik tok.:@TR.Bekary</p>
-                    <p>Inst:@TR.Bekary</p>
+
+                <ul class="ul_where">
+                    <li>
+                        <div id="fifth" class="title">Where</div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.0031435472395!2d30.151793109617003!3d49.785946698112724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d369fa2e358d15%3A0x93ac816230eb5004!2z0JrRg9C70LjQvdC40YfQuA!5e0!3m2!1sru!2sua!4v1709588973415!5m2!1sru!2sua"
+                            width="535" height="487" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                    <li class="li_where">
+                        <ul class="ul_How">
+                            <h5 class="How">How</h5>
+                            <p class="phone_numbere"><a class="phone_numbere_a" href='tel:+38 055 123 13 12'>+38 055 123 13 12</a></p>
+                            <ul class="links">
+                                <p class="tikToke">Tik tok.:@TR.Bekary</p>
+                                <p class="insterGram">Inst:@TR.Bekary</p>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="li_where">
+                        <ul class="ul_When">
+                            <h5 class="When">When</h5>
+                            <p class="time">with 8:30 to 20:30</p>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
     </main>
-    <section id="six">
-        <footer>
-            <div class="container">
-                <ul>
-                    <li>
-                        <ul>
-                            <li>TRADITIONAL
-                                ARTISAX BAKERY</li>
-                            <li>We want be helthy</li>
-                        </ul>
-                    <li>
-                        <ul>
-                            <li>About</li>
-                            <li>About us </li>
-                            <li>Features</li>
-                            <li>News & Blog</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <uL>
-                            <li>Movement </li>
-                            <li>What Eatly</li>
-                            <li>Support Us</li>
-                        </uL>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Company</li>
-                            <li>Why Eatly </li>
-                            <li>Capital</li>
-                            <li>Securaty</li>
-                        </ul>
-                    </li>
-                </ul>
-                <div>@2024 Eatly.All right riserved.</div>
-            </div>
-        </footer>
+    <footer>
+        <div class="container">
+            <ul class="ul_footer">
+                <li class="li_footer">
+                    <ul class="ul_ul_footer">
+                        <li class="TAB">TRADITIONAL
+                            ARTISAX BAKERY</li>
+                        <li class="WeWant">We want be helthy</li>
+                    </ul>
+                </li>
+                <li class="li_footer">
+                    <ul class="ul_ul_footer">
+                        <li class="About">About</li>
+                        <li class="AboutUs">About us </li>
+                        <li class="Features">Features</li>
+                        <li class="NewsAndBlogs">News & Blog</li>
+                    </ul>
+                </li>
+                <li class="li_footer">
+                    <uL class="ul_ul_footer">
+                        <li class="Movement">Movement </li>
+                        <li class="WhatEatly">What Eatly</li>
+                        <li>Support Us</li>
+                    </uL>
+                </li>
+                <li class="li_footer">
+                    <ul class="ul_ul_footer">
+                        <li class="Company">Company</li>
+                        <li class="WhyEatly">Why Eatly </li>
+                        <li class="Capital">Capital</li>
+                        <li class="Securaty">Securaty</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="rights">@2024 Eatly.All right riserved.</div>
+        </div>
+    </footer>
     </section>
 </body>
 

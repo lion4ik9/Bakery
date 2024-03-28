@@ -3,19 +3,71 @@
 }
 
 @font-face {
-    font-family: 'Italiana';
+    font-family: 'Italiana', sans-serif;
     font-weight: 400;
-    src: url('static\Italiana-Regular.ttf');
+    src: url(../static/Italiana-Regular.ttf);
   }
 
+  @font-face {
+    font-family: 'Wisdom Script';
+    src: url(../fonts/Wisdom_Script_AJ.otf);
+    src: url(../fonts/WisdomScriptAJ.ttf) format("ttf");
+  }
+
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100;
+    src: url('static\Inter-Thin.ttf');
+  }
+  
 @font-face {
     font-family: 'Inter';
     font-weight: 200;
     src: url('static\Inter-ExtraLight.ttf');
   }
 
+@font-face {
+    font-family: 'Inter';
+    font-weight: 300;
+    src: url('static\Inter-Light.ttf');
+}
 
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('static\Inter-Regular.ttf');
+}
 
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    src: url('static\Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    src: url('static\Inter-SemiBold.ttf');
+  }
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 800;
+    src: url('static\Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url('static\Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 1000;
+    src: url('static\Inter-Black.ttf');
+}
 
 .container {
     width: 1156px;
@@ -194,9 +246,8 @@ p {
     height: 775px;
 }
 
-#second,
-#third {
-    font-family: 'Inter';
+#second {
+    font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 64px;
     color: white;
@@ -205,7 +256,7 @@ p {
 }
 
 .nameOfProduct {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 800;
     color: white;
@@ -256,7 +307,7 @@ h5 {
     height: 41px;
     border: 1px;
     border-radius: 17px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 800;
     background-color: #B47B48;
@@ -276,11 +327,12 @@ h5 {
     height: 851px;
 }
 
-#second,
 #third,
-#fourth {
+#fourth,
+#fifth {
     font-family: 'Italiana';
     font-weight: 400;
+    color: white;
 }
 
 .fig-cap_qualityOurBakary {
@@ -291,7 +343,7 @@ h5 {
 
 .ol_qualityOurBakery {
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 24px;
     height: 116px;
@@ -310,6 +362,7 @@ h5 {
 #third {
     position: absolute;
     right: 40px;
+    font-size: 64px;
 }
 
 #three-container {
@@ -320,14 +373,20 @@ h5 {
     padding-top: 50px;
     display: flex;
     height: 800px;
+    justify-content: space-around;
 }
 
 .img_qualityOurBakery {
-    width: 50%;
+    width: 100%;
+}
+
+#cookies,
+#pie {
+    width: 70%;
 }
 
 .li_ul_qalityOurBakery {
-    width: 370px;
+    width: 330px;
     height: 400px;
 }
 
@@ -383,8 +442,151 @@ h5 {
 
 .fig_whyTraditional {
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+}
+
+#five {
+    background-color: #202023;
+    height: 704px;
+    padding: 50px;
+}
+
+#fifth {
+    font-size: 48px;
+    margin-bottom: 44px;
+}
+
+.ul_How {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+}
+
+.ul_When {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.time {
+    width: 145px;
+    text-align: center;
+}
+
+.How,
+.When {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.When {
+    text-align: center;
+}
+
+.ul_where {
+    color: white;
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+}
+
+.ul_where > li:nth-child(2) {
+    padding: 0 30px 0 120px;
+}
+
+.phone_numbere_a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.li_where {
+    height: 350px;
+    align-self: center;
+}
+
+.links {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #202023;
+    height: 351px;
+    display: flex;
+}
+
+.ul_footer {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.li_footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.li_footer:first-child {
+    padding-top: 20px;
+    width: 330px;
+    height: 160px;
+}
+
+.li_footer:first-child > .ul_ul_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ul_ul_footer {
+    color: white;
+    font-size: 24px;
+    height: 100%;
+}
+
+.TAB {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.About,
+.Movement,
+.Company {
+    padding-bottom: 50px;
+}
+
+.rights {
+    display: flex;
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    width: 273px;
+    padding: 0 0 100px 0;
+}
+
+footer > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
